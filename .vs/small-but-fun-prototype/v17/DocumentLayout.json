@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Unity_Projects\\small-but-fun-prototype\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CECAADE9-568B-23DE-51A5-BB16CCC95CF9}|Assembly-CSharp.csproj|d:\\unity_projects\\small-but-fun-prototype\\assets\\scripts\\brakefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CECAADE9-568B-23DE-51A5-BB16CCC95CF9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\brakefunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CECAADE9-568B-23DE-51A5-BB16CCC95CF9}|Assembly-CSharp.csproj|d:\\unity_projects\\small-but-fun-prototype\\assets\\scripts\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CECAADE9-568B-23DE-51A5-BB16CCC95CF9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "brakefunction.cs",
+              "DocumentMoniker": "D:\\Unity_Projects\\small-but-fun-prototype\\Assets\\scripts\\brakefunction.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\brakefunction.cs",
+              "ToolTip": "D:\\Unity_Projects\\small-but-fun-prototype\\Assets\\scripts\\brakefunction.cs",
+              "RelativeToolTip": "Assets\\scripts\\brakefunction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T14:52:25.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "controls.cs",
               "DocumentMoniker": "D:\\Unity_Projects\\small-but-fun-prototype\\Assets\\scripts\\controls.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\controls.cs",
               "ToolTip": "D:\\Unity_Projects\\small-but-fun-prototype\\Assets\\scripts\\controls.cs",
               "RelativeToolTip": "Assets\\scripts\\controls.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAACUAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T09:14:59.591Z",
               "EditorCaption": ""

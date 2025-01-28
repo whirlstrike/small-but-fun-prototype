@@ -10,13 +10,12 @@ public class controls : MonoBehaviour
     private float weight;
     public float MoveSpeed = 1.0f;
     public float Jumphight = 1.0f;
-    [SerializeField] private Transform groundchecker;
-    [SerializeField] private LayerMask groundlayer;
-    private bool isgrounded()
+    private bool IsGrounded()
     {
-        return Physics2D.OverlapCircle(groundchecker.position, 0.2f, groundlayer);
-
+        return GetComponent<Rigidbody2D>().velocity.y == 0f;
     }
+
+
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
@@ -31,7 +30,7 @@ public class controls : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (isgrounded())
+            if (IsGrounded())
             {
                 rigidBody.velocity = new Vector2(rigidBody.velocity.x, Jumphight);
             }
