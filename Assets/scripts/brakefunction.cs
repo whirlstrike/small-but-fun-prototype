@@ -5,8 +5,13 @@ using UnityEngine;
 public class brakefunction : MonoBehaviour
 {
     public float limit;
-// Start is called before the first frame update
-void Start()
+    private bool playerweight()
+    {
+        return GetComponent<Rigidbody2D>().linearVelocity.y == 0f;
+    }
+
+    // Start is called before the first frame update
+    void Start()
     {
         
     }
@@ -14,6 +19,9 @@ void Start()
     // Update is called once per frame
     void Update()
     {
-        
+        if(playerweight())
+        {
+            
+        }
     }
 }
